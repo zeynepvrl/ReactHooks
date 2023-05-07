@@ -1,5 +1,5 @@
 // Custom Hook örnek1(Counter) VE ÖRNEK2(PersonalInfo)
-/* import Counter from "./Counter";
+import Counter from "./Counter";
 import PersonalInfo from "./PersonalInfo";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 } 
 
 export default App;
- */
+
 
 
 //Create Hooks  , Custom Hook
@@ -34,7 +34,7 @@ export default App;
 
 
 //useDefferedValue
-/* import { useState } from "react";
+import { useState } from "react";
 import Characters from "./Characters";
 
 function App() {
@@ -50,10 +50,11 @@ function App() {
    );
 }
 
-export default App; */
+export default App;
+
 
 //useTransition
-/* import { useState, useTransition } from "react";
+import { useState, useTransition } from "react";
 
 function App() {
   const [input, setInput] = useState("");
@@ -86,10 +87,10 @@ function App() {
   );
 }
 
-export default App; */
+export default App;
 
 //UseReducer
-/* import "./App.css";
+import "./App.css";
 import React, { useEffect, useReducer } from "react";
 import Calculate from "./Calculate";
 
@@ -129,7 +130,7 @@ function App() {
     </div> //yukardaki ilk isim Count ve dispatch Calculate.js de use edilen NewContext e eşitlenecek olan context yapısının methodları olacaktır
   );
 }
-export default App; */
+export default App;
 /*reducer fonksiyonu, state değişikliklerinin nasıl yapılacağını belirten bir fonksiyondur ve tipik olarak bir switch ifadesi içerisinde
 işlevselliği tanımlanır. reducer fonksiyonları, component'in içerisinde yer almak zorunda değillerdir ve genellikle state yönetimi 
 işlevselliğini sağlayan fonksiyonlardan ayrı olarak tutulurlar. Bu, reducer fonksiyonunun, state yönetimi işlevselliği ile birlikte
@@ -139,7 +140,7 @@ kullanılabilmesini ve aynı reducer fonksiyonunun farklı component'lerde kulla
  için bu işlevi kullanır. */
 
 //UseRef
-/* import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function App() {
   const [name, setName] = useState('');
@@ -173,7 +174,7 @@ function App() {
   );
 }
 
-export default App; */
+export default App;
 /* useRef in iki kullanım amacı olabilir. bunlardan ilki sonsuz useEffect render döngüsünden kaçınmak için
 useRef, React fonksiyon bileşenleri içinde bir referans oluşturmak için kullanılan bir kancadır. Bu referans, 
 genellikle DOM elemanlarına veya bileşenlerde saklanacak verilere erişmek için kullanılır.
@@ -199,7 +200,7 @@ odaklanılabilir.
 Yine de UseState yöntemi daha avantajlıdır güncellenebilme ve props taşıma konularında sağladıklarından ötürü */
 
 //USECALLBACK
-/* import { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import NumberList from './NumberList';
 
 function App() {
@@ -236,10 +237,10 @@ function App() {
   );
 }
 
-export default App; */
+export default App; 
 
 //USEMEMO
-/* import {useState, useMemo } from 'react';
+import {useState, useMemo } from 'react';
 
 function App() { 
   const [number, setNumber] = useState(0);
@@ -276,7 +277,7 @@ function slowFunc(num) {
   return num * 2;
 }
 
-export default App; */
+export default App;
 /*useMemo kullanım amacı, hesaplama maliyeti yüksek olan işlemleri optimize etmek ve gereksiz yere tekrar hesaplama
  yapmaktan kaçınmaktır. Bu fonksiyon, işlemin bağımlılık dizisi değişmediği sürece önbellekte hesaplama sonucunu saklar 
  ve sonraki render işlemlerinde bu sonucu kullanır. Bu sayede, aynı hesaplama işlemi herhangi bir state değişikliği 
@@ -295,7 +296,7 @@ işlemi sadece filtreleme kriterleri değiştiğinde yapılmalı ve sonuçlar ö
   yeniden yapılır. Eğer bağımlılık dizisi belirtilmezse, herhangi bir değişiklik olduğunda hesaplama yeniden yapılır. */
 
 //USEFFECT
-/* import './App.css';
+import './App.css';
 import {useState , useEffect} from 'react';
 
 function App() {
@@ -331,4 +332,3 @@ function App() {
 }
 
 export default App;
- */
