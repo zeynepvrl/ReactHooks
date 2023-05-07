@@ -1,5 +1,5 @@
 // Custom Hook örnek1(Counter) VE ÖRNEK2(PersonalInfo)
-import Counter from "./Counter";
+/* import Counter from "./Counter";
 import PersonalInfo from "./PersonalInfo";
 
 function App() {
@@ -12,11 +12,11 @@ function App() {
 } 
 
 export default App;
-
+ */
 
 
 //Create Hooks  , Custom Hook
-/* import {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import useTitle from './useTitle';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
 }
 
 export default App;
- */
+
 
 //useDefferedValue
 /* import { useState } from "react";
