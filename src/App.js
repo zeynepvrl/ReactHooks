@@ -120,7 +120,7 @@ function App() {
   return (
     <div className="App">
       <NewContext.Provider
-        value={{
+        value={{                     //value taşınacak değerleri belirtiyor
           Count: newStateCount, 
           dispatch: dispatch,
         }}   //value={{newStateCount, dispatch}}
